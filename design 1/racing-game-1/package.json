@@ -1,0 +1,26 @@
+{
+  "name": "racing-game",
+  "version": "1.0.0",
+  "description": "A racing game with neural network controlled cars and genetic algorithms.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "p5": "^1.4.0",
+    "@tensorflow/tfjs": "^2.8.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "racing",
+    "game",
+    "neural networks",
+    "genetic algorithms"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
